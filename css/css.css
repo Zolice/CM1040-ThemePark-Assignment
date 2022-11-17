@@ -17,7 +17,7 @@ h1.title {
     float: left;
     margin-top: 14px;
     font-size: 52px;
-    font-style: normal;
+    font-family: "Montserrat", sans-serif;
     color: black;
 }
 
@@ -39,11 +39,12 @@ footer {
     text-align: center;
 }
 
-.footer-grid{
+.footer-grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    width: 512px;
+    width: auto;
+    max-width: 704px;
     margin: auto;
     padding-top: 32px;
     padding-bottom: 16px;
@@ -52,9 +53,9 @@ footer {
 h1.footer {
     margin: auto;
     font-size: 64px;
-    font-style: normal;
+    font-family: "Montserrat", sans-serif;
     color: black;
-    grid-column: 2;
+    grid-column: 2 / span 2;
     grid-row: 1;
     width: 448px;
 }
@@ -63,9 +64,9 @@ h1.footer {
     height: 192px;
     margin: 16px;
     grid-column: 1;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 2;
     align-self: center;
-    display:block;
+    display: block;
     margin: auto;
 }
 
@@ -77,12 +78,12 @@ h1.footer {
     font-size: 24px;
     font-style: normal;
     color: black;
-    grid-column: 2;
+    grid-row: 2;
 }
 
-.footer-copyright{
-    grid-column: 1 / span 2;
-    grid-row: 4;
+.footer-copyright {
+    grid-column: 1 / span 3;
+    grid-row: 3;
     margin: auto;
     font-family: 'Roboto';
     font-size: 16px;
@@ -91,7 +92,7 @@ h1.footer {
     margin-top: 16px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -109,8 +110,96 @@ content {
 
 .main-body {
     margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
     width: auto;
     min-width: 351px;
-    max-width: 1080px;
+    max-width: 1440px;
     align-self: center;
+}
+
+.splash-image {
+    width: 100%;
+    height: 448px;
+    background-image: url("../images/sample_background_image_1920x1280.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto auto;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.splash-button {
+    grid-column: 2;
+    grid-row: 4;
+    margin: auto;
+    width: 256px;
+    height: 64px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    border: none;
+    border-radius: 8px;
+}
+
+.splash-header {
+    grid-column: 2;
+    grid-row: 2;
+    margin: auto;
+    font-size: 80px;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    width: auto;
+}
+
+.splash-text {
+    grid-column: 2;
+    grid-row: 3;
+    margin: auto;
+    font-size: 32px;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    width: auto;
+}
+
+.attractions-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 16px;
+    row-gap: 16px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.attractions-card {
+    width: auto;
+    height: auto;
+    min-height: 256px;
+    background-color: lightgray;
+    border-radius: 8px;
+    vertical-align: bottom;
+    display: flex;
+}
+
+.attractions-header-div {
+    align-self: flex-end;
+    width: 100%;
+}
+
+.attractions-header {
+    font-size: 48px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: auto;
+    vertical-align: bottom;
+    text-align: center;
 }

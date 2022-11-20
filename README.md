@@ -1,7 +1,7 @@
 # CM1040 Web Development ThemePark Assignment
 ## Project Members
 - Yong Zhen Long
-- Jia Sheng
+- Thoo Jia Sheng
 - Zhu Wenyu
 - Wee Hui Toon
 

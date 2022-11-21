@@ -1,0 +1,92 @@
+.splash-image {
+    width: 100%;
+    height: 448px;
+    background-image: url("../images/sample_background_image_1920x1280.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto auto;
+    align-items: center;
+    margin-bottom: 32px;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.splash-button {
+    grid-column: 2;
+    grid-row: 4;
+    margin: auto;
+    width: 256px;
+    height: 64px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    border: none;
+    border-radius: 8px;
+}
+
+.splash-header {
+    grid-column: 2;
+    grid-row: 2;
+    margin: auto;
+    font-size: 80px;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    width: auto;
+}
+
+.splash-text {
+    grid-column: 2;
+    grid-row: 3;
+    margin: auto;
+    font-size: 32px;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    width: auto;
+}
+
+.attractions-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 16px;
+    row-gap: 16px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.attractions-card {
+    width: auto;
+    height: auto;
+    min-height: 256px;
+    background-color: lightgray;
+    border-radius: 8px;
+    vertical-align: bottom;
+    display: flex;
+}
+
+.attractions-header-div {
+    align-self: flex-end;
+    width: 100%;
+
+}
+
+.attractions-header {
+    font-size: 48px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: auto;
+    vertical-align: bottom;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+

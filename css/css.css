@@ -124,6 +124,7 @@ content {
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     column-gap: 32px;
+    width:100%;
 }
 
 .main-content {

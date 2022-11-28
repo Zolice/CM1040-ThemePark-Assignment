@@ -104,10 +104,6 @@ body {
     font-family: 'Roboto';
 }
 
-content {
-    margin-top: 96px;
-}
-
 .main-body {
     padding-left: 16px;
     padding-right: 16px;
@@ -180,7 +176,7 @@ content {
 .social-media-feed-article {
     display: grid;
     grid-template-columns: 64px auto;
-    grid-template-rows: 28px 28px auto auto;
+    grid-template-rows: min-content min-content auto auto;
     height: auto;
     column-gap: 8px;
     row-gap: 8px;

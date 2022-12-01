@@ -20,3 +20,16 @@
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
+#Attraction-Header {
+    font-size: 32px;
+    text-align: left;
+}
+
+.attraction-image {
+    width:100%;
+}
+
+#cell-image {
+    width:200px;
+}

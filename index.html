@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<!-- <html lang="en"> --> <!-- Swap to EN when we add actual text-->
-<html lang="zxx"> <!-- zxx is a language code for "no linguistic content" -->
+<!-- <html lang="en"> -->
+<!-- Swap to EN when we add actual text-->
+<html lang="zxx">
+<!-- zxx is a language code for "no linguistic content" -->
 
 <head>
     <meta charset="utf-8">
@@ -11,6 +13,8 @@
     <!-- <link rel="icon" href=""/> TO IMPLEMENT IN FUTURE-->
     <link rel="stylesheet" href="./css/css.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css-alt/css.css">
+    <link rel="stylesheet" href="./css-alt/index.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -18,17 +22,19 @@
 <body>
     <header>
         <a href="index.html"><img class="logo" src="./images/sample_logo_256x256.png" alt="Logo"></a>
-        <h1 class="title"><a href="index.html">Theme Park</a></h1>
+        <h1 class="title"><a href="index.html">Theme</a></h1>
 
-        <a href="attractions.html" class="header-link">Attractions</a>
-        <a href="about.html" class="header-link">About Us</a>
+        <div class="header-menu">
+            <a href="attractions.html" class="header-menu-link">Attractions</a>
+            <a href="about.html" class="header-menu-link">About Us</a>
+        </div>
     </header>
 
     <!-- Zhen Long -->
     <div class="main-body">
         <div class="splash-image">
             <h1 class="splash-header">Lorem ipsum</h1>
-            <p class="splash-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="splash-text">Visit the part today!</p>
             <button class="splash-button" onclick="location.href='attractions.html';">Attractions</button>
             <!-- Delete the line above, and uncomment below if onclick is not allowed -->
             <!-- <a href="attractions.html" class="splash-button">

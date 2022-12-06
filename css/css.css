@@ -3,32 +3,48 @@ header {
     position: sticky;
     background-color: lightgray;
     width: 100%;
-    height: 96px;
+    height: auto;
     top: 0px;
+    overflow: hidden;;
 }
 
 .logo {
     float: left;
-    height: 64px;
-    margin: 16px;
+    height: 3em;
+    width: 3em;
+    margin: 1em;
 }
 
 h1.title {
     float: left;
-    margin-top: 14px;
-    font-size: 52px;
+    margin: 0.25em;
+    margin-left: 0;
+    font-size: 3em;
     font-family: "Montserrat", sans-serif;
     color: black;
 }
 
-.header-link {
+.header-menu {
     float: right;
-    margin-top: 32px;
-    margin-right: 32px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+.header-menu-link:hover {
+    background-color: gray;
+    color: white;
+}
+
+.header-menu-link {
+    float: right;
     font-family: 'Roboto';
-    font-size: 24px;
+    font-size: 1.5em;
     font-style: normal;
     color: black;
+    padding: 1.1em;
+    text-align: center;
 }
 
 footer {
@@ -108,7 +124,7 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     width: auto;
-    min-width: 351px;
+    min-width: 352px;
     max-width: 1440px;
     align-self: center;
     display: block;
@@ -120,7 +136,9 @@ body {
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     column-gap: 32px;
-    width:100%;
+    width: 100%;
+    min-width: 0px;
+
 }
 
 .main-content {
@@ -129,8 +147,6 @@ body {
 
 .sidebar {
     width: 100%;
-    grid-column: 2;
-    grid-row: 1;
 }
 
 .social-media {
@@ -178,22 +194,22 @@ body {
     grid-template-columns: 64px auto;
     grid-template-rows: min-content min-content auto auto;
     height: auto;
-    column-gap: 8px;
-    row-gap: 8px;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
     margin-bottom: 16px;
 }
 
 .social-media-feed-article-profile {
     grid-column: 1;
     grid-row: 1 / span 2;
-    width: 64px;
-    height: 64px;
+    width: 4em;
+    height: 4em;
 }
 
 .social-media-feed-article-profile-name {
     grid-column: 2;
     grid-row: 1;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 0;
 }
@@ -201,14 +217,14 @@ body {
 .social-media-feed-article-profile-user {
     grid-column: 2;
     grid-row: 2;
-    font-size: 20px;
+    font-size: 1.25em;
     margin: 0;
 }
 
 .social-media-feed-article-content {
     grid-column: 1 / span 2;
     grid-row: 3;
-    font-size: 16px;
+    font-size: 1em;
     margin-top: 0px;
     margin-bottom: 0px;
     height: min-content;

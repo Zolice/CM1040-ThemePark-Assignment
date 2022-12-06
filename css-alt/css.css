@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    header {
+        height: 8em;
+    }
+
+    h1.title {
+        margin-bottom: 0px;
+    }
+
+    .header-menu {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: rgb(236, 236, 236);
+    }
+
+    .header-menu-link {
+        padding: 0.5em;
+    }
+
+    .main-body-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    .social-media-feed {
+        display: none;
+    }
+}

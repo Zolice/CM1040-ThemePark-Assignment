@@ -65,6 +65,7 @@ footer {
     margin: auto;
     padding-top: 32px;
     padding-bottom: 16px;
+    align-items: center;
 }
 
 h1.footer {
@@ -89,13 +90,19 @@ h1.footer {
 
 .footer-link {
     float: right;
-    margin-top: 8px;
-    margin-right: 32px;
     font-family: 'Roboto';
     font-size: 24px;
     font-style: normal;
     color: black;
     grid-row: 2;
+}
+
+#footer-attractions-link {
+    grid-column: 2;
+}
+
+#footer-about-link {
+    grid-column: 3;
 }
 
 .footer-copyright {

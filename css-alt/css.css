@@ -11,11 +11,16 @@
         width: 100%;
         display: grid;
         grid-template-columns: 50% 50%;
-        background-color: rgb(236, 236, 236);
     }
 
     .header-menu-link {
         padding: 0.5em;
+        background-color: rgb(236, 236, 236);
+    }
+
+    .header-menu-link:hover {
+        background-color: gray;
+        color: white;
     }
 
     .main-body-grid {
@@ -25,5 +30,48 @@
 
     .social-media-feed {
         display: none;
+    }
+
+    footer {
+        margin-top: 0em;
+    }
+
+    .footer-grid {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+        padding: 1em 0em;
+    }
+
+    .logo-footer {
+        display: none;
+    }
+
+    h1.footer {
+        font-size: 3em;
+        grid-column: 1 / span 2;
+        width: 100%;
+    }
+
+    .footer-link{
+        background-color: rgb(236, 236, 236);
+        padding: 0.5em;
+    }
+
+    .footer-link:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    #footer-attractions-link {
+        grid-column: 1;
+    }
+    
+    #footer-about-link {
+        grid-column: 2;
+    }
+
+    .footer-copyright {
+        grid-column: 1 / span2;
+        /* grid-row: 2; */
     }
 }

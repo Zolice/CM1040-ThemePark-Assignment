@@ -73,6 +73,16 @@
     vertical-align: bottom;
     display: flex;
     background-size: cover;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.attractions-card:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+    z-index:1;
 }
 
 #attractions-card-1 {

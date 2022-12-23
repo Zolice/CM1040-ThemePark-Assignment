@@ -1,11 +1,11 @@
 /* Header and Footer */
 header {
     position: sticky;
-    background-color: lightgray;
     width: 100%;
     height: auto;
     top: 0px;
-    overflow: hidden;;
+    overflow: hidden;
+    background-color: #C8E6C9;
     z-index: 2;
 }
 
@@ -50,11 +50,10 @@ h1.title {
 
 footer {
     height: auto;
-    background-color: lightgray;
+    background-color: #C8E6C9;
     width: 100%;
     align-items: center;
     text-align: center;
-    margin-top: 32px;
 }
 
 .footer-grid {
@@ -126,6 +125,19 @@ a {
 body {
     margin: 0;
     font-family: 'Roboto';
+    background-color: #F1F8E9
+}
+
+h1 {
+    color: #033603;
+}
+
+h2 {
+    color: #033603;
+}
+
+p {
+    color: #03323f;
 }
 
 .main-body {
@@ -137,6 +149,8 @@ body {
     align-self: center;
     display: block;
     margin: auto;
+    background-color: #DCEDC8;
+    padding-bottom: 2em;
 }
 
 .main-body-grid {
@@ -165,7 +179,6 @@ body {
 
 .social-media-h1 {
     font-size: 32px;
-    color: black;
     text-align: center;
     margin: auto;
     margin-top: 16px;
@@ -184,14 +197,14 @@ body {
     width: 64px;
     height: 64px;
     margin: 8px;
+    border-radius: 32px;
 }
 
 .social-media-feed {
     overflow-y: scroll;
     height: 768px;
     display: grid;
-    background-color: rgb(235, 235, 235);
-    ;
+    background-color: #faf5e9;
     padding: 12px;
     width: auto;
     max-width: 352px;

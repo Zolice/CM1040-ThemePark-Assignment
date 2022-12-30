@@ -2,17 +2,17 @@
 header {
     position: sticky;
     width: 100%;
-    height: auto;
+    height: 75px;
     top: 0px;
     overflow: hidden;
-    background-color: #C8E6C9;
+    background-color: #033603;
     z-index: 2;
 }
 
 .logo {
     float: left;
-    height: 3em;
-    width: 3em;
+    height: 2.7em;
+    width: auto;
     margin: 1em;
 }
 
@@ -20,9 +20,10 @@ h1.title {
     float: left;
     margin: 0.25em;
     margin-left: 0;
-    font-size: 3em;
+    font-size: 2em;
+    line-height: 2em;
     font-family: "Montserrat", sans-serif;
-    color: black;
+    color: white;
 }
 
 .header-menu {
@@ -34,23 +35,26 @@ h1.title {
 }
 
 .header-menu-link:hover {
-    background-color: gray;
+    background-color: #05800596;
     color: white;
+
 }
 
 .header-menu-link {
     float: right;
-    font-family: 'Roboto';
-    font-size: 1.5em;
-    font-style: normal;
-    color: black;
+    font-family: 'Open Sans';
+    font-size: 1.25em;
+    font-weight: 300;
+    color: #E0F0E3;
     padding: 1.1em;
     text-align: center;
+    transition: all 1s;
+
 }
 
 footer {
     height: auto;
-    background-color: #C8E6C9;
+    background-color: #412722;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -61,11 +65,11 @@ footer {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     width: auto;
-    max-width: 704px;
+    max-width: fit-content;
     margin: auto;
     padding-top: 32px;
-    padding-bottom: 16px;
     align-items: center;
+    column-gap: 2em;
 }
 
 h1.footer {
@@ -79,8 +83,8 @@ h1.footer {
 }
 
 .logo-footer {
-    height: 192px;
-    margin: 16px;
+    width: 18em;
+    margin: auto;
     grid-column: 1;
     grid-row: 1 / span 2;
     align-self: center;
@@ -90,29 +94,51 @@ h1.footer {
 
 .footer-link {
     float: right;
-    font-family: 'Roboto';
-    font-size: 24px;
+    font-family: 'Open Sans';
+    font-size: 14px;
     font-style: normal;
-    color: black;
-    grid-row: 2;
-}
-
-#footer-attractions-link {
+    color: #CBBCB9;
     grid-column: 2;
 }
 
+#footer-attractions-link {
+    grid-row: 1;
+}
+
 #footer-about-link {
+    grid-row: 2;
+}
+
+.footer-social-media {
+    width: auto;
+    height: auto;
+    margin: auto;
     grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.footer-social-media-h1 {
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 16px;
+    width: 100%;
+    color: #CBBCB9;
+}
+
+.footer-social-media-img {
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+    border-radius: 32px;
 }
 
 .footer-copyright {
-    grid-column: 1 / span 3;
-    grid-row: 3;
     margin: auto;
     font-family: 'Roboto';
     font-size: 16px;
     font-style: normal;
-    color: black;
+    color: white;
     margin-top: 16px;
 }
 
@@ -124,20 +150,14 @@ a {
 /* Content and Main Body */
 body {
     margin: 0;
-    font-family: 'Roboto';
-    background-color: #F1F8E9
+    font-family: 'Open Sans';
+    background-color: #E0F0E3;
 }
 
-h1 {
-    color: #033603;
-}
-
-h2 {
-    color: #033603;
-}
-
-p {
-    color: #03323f;
+button {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 .main-body {
@@ -149,7 +169,7 @@ p {
     align-self: center;
     display: block;
     margin: auto;
-    background-color: #DCEDC8;
+    background-color: #E0F0E3;
     padding-bottom: 2em;
 }
 
@@ -169,6 +189,8 @@ p {
 
 .sidebar {
     width: 100%;
+    grid-column: 2;
+    grid-row: 1;
 }
 
 .social-media {
@@ -187,7 +209,7 @@ p {
 
 .social-media-img-container {
     display: block;
-    width: 248px;
+    width: max-content;
     height: auto;
     margin: auto;
     margin-bottom: 16px;
@@ -204,10 +226,11 @@ p {
     overflow-y: scroll;
     height: 768px;
     display: grid;
-    background-color: #faf5e9;
+    background-color: #d0dfd3;
     padding: 12px;
     width: auto;
     max-width: 352px;
+    
 }
 
 .social-media-feed-article {
@@ -260,22 +283,19 @@ p {
 
 ::-webkit-scrollbar {
     width: 0.5em;
-    border-radius: 1em;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-    border-radius: 1em;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-    border-radius: 1em;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

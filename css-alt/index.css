@@ -2,8 +2,11 @@
     .splash-image {
         width: 100%;
         height: auto;
-        grid-template-columns: auto;
         padding: 2em 0px;
+    }
+
+    .splash-image-grid {
+        grid-template-columns: auto;
     }
 
     .attractions-grid {

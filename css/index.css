@@ -1,51 +1,68 @@
 .splash-image {
     width: 100%;
-    height: 448px;
-    background-image: url("../images/sample_background_image_1920x1280.jpg");
+    height: 648px;
+    /* background-image: url("../images/sample_background_image_1920x1280.jpg"); */
+    background-image: url("../images/splash-image-edited-raw.jpg");
+    /* filter:brightness(90%); */
     background-size: cover;
+    background-position: center;
+}
+
+.splash-image-grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto max-content max-content max-content auto;
     align-items: center;
-    margin-bottom: 1em;
     grid-column: 1 / span 2;
     grid-row: 1;
+    height: 100%;
+    max-width: 1440px;
+    margin: auto;
+    row-gap: 2em;
 }
 
 .splash-button {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 4;
     margin: auto;
-    width: 8em;
-    height: 2em;
-    background-color: black;
-    color: white;
-    font-size: 2em;
+    width: 13em;
+    height: 2.75em;
+    font-family: 'Montserrat';
+    background-color: #e9924f;
+    color: black;
+    font-size: 1.25em;
     font-style: normal;
     border: none;
     border-radius: 0.25em;
     text-align: center;
     vertical-align: middle;
+    transition: all 0.25s;
+}
+
+.splash-button:hover {
+    background-color: #e5c199;
 }
 
 .splash-header {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
     margin: auto;
-    font-size: 5em;
-    font-style: normal;
-    color: black;
+    font-family: 'Montserrat';
+    font-size: 3.5em;
+    font-weight: 300;
+    color: white;
     text-align: center;
     width: auto;
 }
 
 .splash-text {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 3;
     margin: auto;
-    font-size: 2em;
-    font-style: normal;
-    color: black;
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    font-weight: 200;
+    color: rgb(219, 219, 219);
     text-align: center;
     width: auto;
 }
@@ -56,12 +73,14 @@
     grid-template-rows: auto auto;
     column-gap: 1em;
     row-gap: 1em;
-    width: auto;
+    width: 100%;
     min-width: 0;
     height: auto;
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;
+    grid-row: 1;
+    grid-column: 1 / span 2;
 }
 
 .attractions-card {
@@ -73,16 +92,16 @@
     vertical-align: bottom;
     display: flex;
     background-size: cover;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .2s ease-in-out;
-	transition: .2s ease-in-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .attractions-card:hover {
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
-    z-index:1;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 1;
 }
 
 #attractions-card-1 {
@@ -127,6 +146,11 @@
     padding-bottom: 0.25em;
 }
 
+.sidebar {
+    grid-column: 2;
+    grid-row: 2;
+}
+
 .reviews-main-body {
     width: 100%;
     display: grid;
@@ -135,9 +159,12 @@
 }
 
 .reviews-main-body-h1 {
-    font-size: 3em;
-    font-style: normal;
+    font-family: "Montserrat";
+    font-size: 2.5em;
+    font-weight: 400;
     margin: 0px;
+    margin-top:10px;
+    margin-bottom:20px;
     margin-left: 0.25em;
     grid-row: 1;
     grid-column: 1 / span 3;
@@ -146,7 +173,7 @@
 .reviews-featured-card {
     width: auto;
     height: auto;
-    background-color: #faf5e9;
+    background-color: #e5c199;
     border-radius: 0.5em;
     display: grid;
     grid-template-columns: 30% auto;
@@ -158,6 +185,9 @@
     margin-bottom: 1em;
     grid-row: 2;
     grid-column: 1 / span 3;
+    box-shadow: 4px 5px 10px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 5px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 5px 10px -3px rgba(0,0,0,0.75);
 }
 
 .reviews-featured-card-img {
@@ -174,8 +204,9 @@
 .reviews-featured-card-h2 {
     grid-column: 2;
     grid-row: 1;
-    font-size: 32px;
-    font-style: normal;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 500;
     margin: 0px;
     white-space: nowrap;
     overflow: hidden;
@@ -185,8 +216,10 @@
 .reviews-featured-card-p {
     grid-column: 2;
     grid-row: 2;
-    font-size: 1em;
-    font-style: normal;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-style: italic;
     margin: 0px;
     height: 8.1em;
     overflow: hidden;
@@ -196,7 +229,7 @@
 .reviews-card {
     width: auto;
     height: auto;
-    background-color: #faf5e9;
+    background-color: #d0dfd3;
     border-radius: 8px;
     align-items: center;
     column-gap: 16px;
@@ -222,8 +255,9 @@
 .reviews-card-h2 {
     grid-column: 1;
     grid-row: 2;
-    font-size: 32px;
-    font-style: normal;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 500;
     margin: 0px;
     margin-bottom: 8px;
     width: 100%
@@ -233,7 +267,9 @@
     grid-column: 1;
     grid-row: 3;
     font-size: 16px;
-    font-style: normal;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-style: italic;
     margin: 0px;
     overflow: hidden;
     text-overflow: ellipsis;

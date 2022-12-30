@@ -7,6 +7,8 @@
 
 # Project Description
 Project assigned by SIM GE - UOL for the purpose of CM1030 Web Development
+Zoological Park - Fictional Theme Park Website
+![logo](images/logo-black.png)
 
 # Instructions
 To start, run the index.html under the html folder.
@@ -31,10 +33,10 @@ To start, run the index.html under the html folder.
 - [ ] About Us - Sidebar (Other Information)
 
 ## Part 3 - Due 5th December 2022
-- [ ] Color Code the Webpage
+- [x] Color Code the Webpage
 - [ ] Replace the Sample Icons and Sample Images
 - [ ] Attractions - Enhancement - Link the Featured Attractions to the Attractions List 
 
 ## Part 4 - Due 19th December 2022
-- [ ] Media Styling
-- [ ] Animation
+- [x] Media Styling
+- [x] Animation

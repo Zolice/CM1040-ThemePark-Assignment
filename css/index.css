@@ -2,7 +2,7 @@
     width: 100%;
     height: 648px;
     /* background-image: url("../images/sample_background_image_1920x1280.jpg"); */
-    background-image: url("../images/splash-image-edited-raw.jpg");
+    background-image: url("../images/splash-image-edited-resized.jpg");
     /* filter:brightness(90%); */
     background-size: cover;
     background-position: center;
@@ -100,7 +100,7 @@
 #attractions-card-1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    background-image: url(../images/sample_card_image_640x450.jpg);
+    background-image: url(../images/roller-coaster-resized.jpg);
 }
 
 #attractions-card-2 {
@@ -112,7 +112,7 @@
 #attractions-card-3 {
     grid-column: 3;
     grid-row: 2;
-    background-image: url(../images/sample_card_image_640x450.jpg);
+    background-image: url(../images/exotic-animals-resized.jpg);
 }
 
 #attractions-card-4 {

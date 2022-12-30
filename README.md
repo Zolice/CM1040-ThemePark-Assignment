@@ -8,6 +8,7 @@
 # Project Description
 Project assigned by SIM GE - UOL for the purpose of CM1030 Web Development
 Zoological Park - Fictional Theme Park Website
+
 ![logo](images/logo-black.png)
 
 # Instructions

@@ -28,19 +28,12 @@
     width: 13em;
     height: 2.75em;
     font-family: 'Montserrat';
-    background-color: #e9924f;
-    color: black;
     font-size: 1.25em;
     font-style: normal;
     border: none;
     border-radius: 0.25em;
     text-align: center;
     vertical-align: middle;
-    transition: all 0.25s;
-}
-
-.splash-button:hover {
-    background-color: #e5c199;
 }
 
 .splash-header {

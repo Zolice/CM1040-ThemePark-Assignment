@@ -1,73 +1,75 @@
 .attractions-card {
-    width: auto;
-    height: auto;
-    min-height: 256px;
-    background-color: lightgray;
-    border-radius: 8px;
-    vertical-align: bottom;
-    display: flex;
+  width: auto;
+  height: auto;
+  min-height: 256px;
+  background-color: lightgray;
+  border-radius: 8px;
+  vertical-align: bottom;
+  display: flex;
 }
 
 .attractions-grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
-    column-gap: 16px;
-    row-gap: 16px;
-    width: auto;
-    height: auto;
-    margin: auto;
-    margin-top: 32px;
-    margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 16px;
+  row-gap: 16px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .attraction-image {
-    width:100%;
+  width: 100%;
 }
 
 #cell-image {
-    width:200px;
+  width: 200px;
 }
 
 
 .pagination a {
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-  }
-  
-  
-  .pagination a.active {
-    background-color: dodgerblue;
-    color: white;
-  }
-  
-  
-  .pagination a:hover:not(.active) {
-    background-color: #ddd;
-  }
-  
-  .dropdown {
-    min-width: 15em;
-    position: relative;
-    margin: 2em;
-  }
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
 
-  .all-attractions{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto;
-    column-gap: 1em;
-    row-gap: 1em;
-    width: 100%;
-  }
 
-.attractions-pic{
-    display: block;
-    width: 100%;
-  }
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
 
-  .attractions-info{
-    font-size: large;
-  }
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.dropdown {
+  min-width: 15em;
+  position: relative;
+  margin: 2em;
+}
+
+.all-attractions {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  column-gap: 1em;
+  row-gap: 1em;
+  width: 100%;
+}
+
+.attractions-pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.attractions-info {
+  font-size: large;
+}

@@ -11,11 +11,10 @@ Zoological Park - Fictional Theme Park Website
 
 ![logo](images/logo-black.png)
 
-# Instructions
-To start, run the index.html under the html folder.
+# Usage
+To open the website, open the index.html file.
 
-# Assignments
-## Part 2 - Due 21st November 2022
+# Roles and Contributions
 - [x] Header [Zhen Long]
 - [x] Footer [Zhen Long]
 - [x] Sidebar - Social Media [Zhen Long]
@@ -23,21 +22,18 @@ To start, run the index.html under the html folder.
 
 - [x] Index Page - Splash Image [Zhen Long]
 - [x] Index Page - Featured Attractions [Zhen Long]
-- [x] Index Page - Featured Reviews [Hui Toon] (Edited by Zhen Long)
-- [x] Index Page - Other Reviews [Hui Toon] (Edited by Zhen Long)
+- [x] Index Page - Featured Reviews [Hui Toon] (Taken over by Zhen Long)
+- [x] Index Page - Other Reviews [Hui Toon] (Taken over by Zhen Long)
 
-- [ ] Attractions - Featured Attractions [Wen Yu and Jia Sheng]
-- [ ] Attractions - All Attractions [Wen Yu and Jia Sheng]
+- [x] Attractions - Featured Attractions [Wen Yu and Jia Sheng] (Taken over by Zhen Long)
+- [x] Attractions - All Attractions [Wen Yu and Jia Sheng] (Taken over by Hui Toon)
 
-- [x] About Us - Main Information
-- [x] About Us - Map Image [Jia Sheng]
-- [ ] About Us - Sidebar (Other Information)
+- [x] About Us - Main Information [Hui Toon]
+- [x] About Us - Map Image [Jia Sheng] (Taken over by Hui Toon)
+- [x] About Us - Sidebar (Other Information) [Jia Sheng] (Made Redundant)
 
-## Part 3 - Due 5th December 2022
-- [x] Color Code the Webpage
-- [ ] Replace the Sample Icons and Sample Images
-- [ ] Attractions - Enhancement - Link the Featured Attractions to the Attractions List 
+- [x] Documentation [Everyone]
+- [x] Wireframe [Zhen Long]
 
-## Part 4 - Due 19th December 2022
-- [x] Media Styling
-- [x] Animation
+# Acknowledgements
+* Royalty-Free Images from [Unsplash](https://unsplash.com/)

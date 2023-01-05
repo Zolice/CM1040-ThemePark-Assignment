@@ -66,35 +66,6 @@
   padding-bottom: 0.25em;
 }
 
-#cell-image {
-  width: 200px;
-}
-
-
-.pagination a {
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-  transition: background-color .3s;
-}
-
-
-.pagination a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-
-.pagination a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-.dropdown {
-  min-width: 15em;
-  position: relative;
-  margin: 2em;
-}
-
 .all-attractions {
   display: grid;
   grid-template-columns: auto auto;

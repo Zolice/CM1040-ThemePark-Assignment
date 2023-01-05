@@ -23,6 +23,7 @@
   vertical-align: bottom;
   display: flex;
   background-size: cover;
+  background-position: center;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .2s ease-in-out;
@@ -40,7 +41,7 @@
 }
 
 #attractions-card-2 {
-  background-image: url(../images/sample_card_image_640x450.jpg);
+  background-image: url(../images/animal-rides.jpg);
 }
 
 #attractions-card-3 {
@@ -97,7 +98,7 @@
 .all-attractions {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: 12em 12em 12em 12em 12em 12em 12em;
   column-gap: 1em;
   row-gap: 1em;
   width: 100%;
@@ -105,11 +106,28 @@
 
 .attractions-pic {
   display: block;
-  width: 100%;
+  width: auto;
   height: 100%;
+  aspect-ratio: 3/2;
   object-fit: cover;
+  object-position: center;
 }
 
 .attractions-info {
   font-size: large;
+  vertical-align: top;
+  height: 100%;
+  display: grid;
+  grid-template-rows: min-content auto;
+}
+
+.attractions-info-h2 {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.attractions-info-p {
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100%;
+  margin: 0;
 }

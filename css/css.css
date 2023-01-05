@@ -147,6 +147,11 @@ a {
     color: black;
 }
 
+em {
+    width: max-content;
+    display: inline;
+}
+
 /* Common Styles */
 button {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);

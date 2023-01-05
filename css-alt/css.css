@@ -3,8 +3,9 @@
         height: 8em;
     }
 
-    h1.title {
-        margin-bottom: 0px;
+    .logo{
+        width: 100%;
+        object-fit: contain;
     }
 
     .header-menu {
@@ -15,17 +16,18 @@
 
     .header-menu-link {
         padding: 0.5em;
-        background-color: rgb(236, 236, 236);
+        /* background-color: rgb(236, 236, 236); */
     }
 
     .header-menu-link:hover {
-        background-color: gray;
-        color: white;
+        /* background-color: gray; */
+        /* color: white; */
     }
 
     .main-body-grid {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
+        column-gap: 0;
     }
 
     .social-media-feed {
@@ -37,41 +39,22 @@
     }
 
     .footer-grid {
-        grid-template-columns: 50% 50%;
+        grid-template-columns: auto auto;;
         grid-template-rows: auto auto;
-        padding: 1em 0em;
-    }
-
-    .logo-footer {
-        display: none;
-    }
-
-    h1.footer {
-        font-size: 3em;
-        grid-column: 1 / span 2;
+        padding: 1em 1em;
         width: 100%;
     }
 
-    .footer-link{
-        background-color: rgb(236, 236, 236);
-        padding: 0.5em;
+    .logo-footer {
+        height: 4em;
+        width: auto;
     }
 
-    .footer-link:hover {
-        background-color: gray;
-        color: white;
+    .footer-link {
+        width: max-content;
     }
 
-    #footer-attractions-link {
-        grid-column: 1;
-    }
-    
-    #footer-about-link {
-        grid-column: 2;
-    }
-
-    .footer-copyright {
-        grid-column: 1 / span2;
-        /* grid-row: 2; */
+    .footer-social-media {
+        display: none;
     }
 }

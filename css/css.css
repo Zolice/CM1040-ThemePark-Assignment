@@ -16,16 +16,6 @@ header {
     margin: 1em;
 }
 
-h1.title {
-    float: left;
-    margin: 0.25em;
-    margin-left: 0;
-    font-size: 2em;
-    line-height: 2em;
-    font-family: "Montserrat", sans-serif;
-    color: white;
-}
-
 .header-menu {
     float: right;
     list-style-type: none;

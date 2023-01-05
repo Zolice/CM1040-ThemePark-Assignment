@@ -286,7 +286,7 @@ body {
     grid-row: 3;
     font-size: 1em;
     margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0;
     height: min-content;
 }
 
@@ -295,6 +295,8 @@ body {
     grid-row: 4;
     width: 100%;
     height: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0;
 }
 
 ::-webkit-scrollbar {

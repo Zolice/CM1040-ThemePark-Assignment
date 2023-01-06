@@ -150,6 +150,7 @@ button {
     background-color: #e9924f;
     color: black;
     transition: all 0.25s;
+    cursor: pointer;
 }
 
 button:hover {

@@ -13,6 +13,7 @@
     background-size: cover;
     padding: 1em;
     margin: 1em 0;
+    font-size: larger;
 }
 
 #about-header{
@@ -21,6 +22,7 @@
 .vision-mission {
     font-weight: bold;
     text-align: center;
+    font-size: larger;
 }
 
 #quote{

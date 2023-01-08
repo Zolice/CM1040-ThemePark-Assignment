@@ -37,4 +37,4 @@ To open the website, open the index.html file.
 
 # Acknowledgements
 * Royalty-Free Images from [Unsplash](https://unsplash.com/)
-* Park Map image from [freepik] "Designed by rawpixel.com / Freepik" (https://freepik.com/)
+* Park Map image from [Freepik](https://freepik.com/)
